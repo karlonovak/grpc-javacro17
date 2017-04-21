@@ -59,11 +59,11 @@ Custom protocols for gRPC and Thrift are based upon grpc-gatling [project](https
 
 ####Test results
 
-GPRC:
+**GPRC:**
 ![alt-text](assets/grpc.png "gRPC")
 
-Thrift:
+**Thrift:**
 ![alt-text](assets/thrift.png "Thrift")
 
-Spring:
+**Spring:**
 ![alt-text](assets/spring.png "Thrift")

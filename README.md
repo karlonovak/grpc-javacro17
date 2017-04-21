@@ -1,4 +1,4 @@
-####gRPC, Thrift and Spring Boot examples and comparison
+**####gRPC, Thrift and Spring Boot examples and comparison**
 This repository was made for [JavaCro'17](http://2017.javacro.hr/) conference session "Putting REST to rest with gRPC" by Karlo Novak (that's me!). 
 
 It contains 3 server projects:
@@ -19,9 +19,7 @@ As well as load/stress tests for each of them:
 * gatling-test-javacro-springboot
 
 
-**Feel free to use all the code available for any purpose!**
-
-####gRPC, Thrift, Spring Boot server examples (Java)
+**####gRPC, Thrift, Spring Boot server examples (Java)**
 Examples show following technologies:
 
 1. [gRPC](http://www.grpc.io/)
@@ -33,7 +31,7 @@ Examples show following technologies:
 All server implementations accept simple POJO *GreetingRequest* as a request, and return *GreetingResponse* as a response to make the comparison as fair as it can be.  Also, client connections are kept alive in all the implementations to make sure each technology in test has the same starting position.
 
 
-####Load/stress tests (Scala/Gatling
+**####Load/stress tests (Scala/Gatling**
 
 ![alt-text](http://gatling.io/wp-content/uploads/2017/02/Gatling-logo.png "Gatling logo")
 All the tests are implemented with Scala and [Gatling](http://gatling.io/).

@@ -20,6 +20,9 @@ As well as load/stress tests for each of them:
 * gatling-test-javacro-springboot
 
 
+---
+
+
 **####gRPC, Thrift, Spring Boot server examples (Java)**
 
 Examples show following technologies:
@@ -31,6 +34,9 @@ Examples show following technologies:
 3. [Spring Boot](https://projects.spring.io/spring-boot)
 
 All server implementations accept simple POJO *GreetingRequest* as a request, and return *GreetingResponse* as a response to make the comparison as fair as it can be.  Also, client connections are kept alive in all the implementations to make sure each technology in test has the same starting position.
+
+
+---
 
 
 **####Load/stress tests (Scala/Gatling**

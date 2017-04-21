@@ -4,6 +4,7 @@ RemoteSystemsTempFiles
 .recommenders
 .metadata
 .hg
+.git
 
 ### grpc-javacro ###
 grpc-javacro/.classpath

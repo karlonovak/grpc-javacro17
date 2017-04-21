@@ -39,13 +39,13 @@ All server implementations accept simple POJO *GreetingRequest* as a request, an
 ---
 
 
-**####Load/stress tests (Scala/Gatling**
+**####Load/stress tests (Scala/Gatling)**
 
 ![alt-text](http://gatling.io/wp-content/uploads/2017/02/Gatling-logo.png "Gatling logo")
 
 All the tests are implemented with Scala and [Gatling](http://gatling.io/).
 
-#Custom protocols for gRPC and Thrift are based upon grpc-gatling [project](https://github.com/tamediadigital/grpc-gatling/)
+Custom protocols for gRPC and Thrift are based upon grpc-gatling [project](https://github.com/tamediadigital/grpc-gatling/)
 
 ####Test scenario and results
 * **Hardware**: Intel(R) Core(TM) i5-4200M@2.50GHz (4 threads using HyperThreading), 8GB RAM

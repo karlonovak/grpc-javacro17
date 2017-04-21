@@ -65,5 +65,5 @@ Custom protocols for gRPC and Thrift are based upon grpc-gatling [project](https
 **Thrift:**
 ![alt-text](assets/thrift.png "Thrift")
 
-**Spring:**
+**Spring Boot (MVC REST):**
 ![alt-text](assets/spring.png "Thrift")

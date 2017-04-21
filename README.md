@@ -47,8 +47,23 @@ All the tests are implemented with Scala and [Gatling](http://gatling.io/).
 
 Custom protocols for gRPC and Thrift are based upon grpc-gatling [project](https://github.com/tamediadigital/grpc-gatling/)
 
-####Test scenario and results
+####Test case and environment
 * **Hardware**: Intel(R) Core(TM) i5-4200M at 2.50GHz (4 threads using HyperThreading), 8GB RAM
 * **Technology**: gRPC is the main technology under test and it's being compared to Thrift as a most popular RPC/Binary serialization framework. Also, gRPC is being tested against Spring Boot (MVC) as one of the most popular technologies for building Java based HTTP APIs.
 * **Test scenario**: Each test uses 50 concurrent users which iterate 20.000 times sending a simple POJO *GreetingRequest* as a request, and return *GreetingResponse** as a response. In total, servers process 1.000.000 (1 million) requests.
 * **Points of measurement**: Throughput in **req/s**, request-response speed under heavy load in **ms**
+
+
+---
+
+
+####Test results
+
+GPRC:
+![alt-text](assets/grpc.png "gRPC")
+
+Thrift:
+![alt-text](assets/thrift.png "Thrift")
+
+Spring:
+![alt-text](assets/spring.png "Thrift")

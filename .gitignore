@@ -1,0 +1,54 @@
+*/target/**
+RemoteSystemsTempFiles
+.recommenders
+.metadata
+.hg
+.git
+
+### grpc-javacro ###
+grpc-javacro/.classpath
+grpc-javacro/.project
+grpc-javacro/.settings
+grpc-javacro/target
+
+### thrift-javacro ###
+thrift-javacro/.classpath
+thrift-javacro/.project
+thrift-javacro/.settings
+thrift-javacro/target
+
+### spring-javacro ###
+spring-javacro/.classpath
+spring-javacro/.project
+spring-javacro/.settings
+spring-javacro/target
+
+### gatling-test-javacro-grpc ###
+gatling-test-javacro-grpc/.settings
+gatling-test-javacro-grpc/.cache-main
+gatling-test-javacro-grpc/.cache-tests
+gatling-test-javacro-grpc/.project
+gatling-test-javacro-grpc/.classpath
+gatling-test-javacro-grpc/target
+gatling-test-javacro-grpc/project/target
+gatling-test-javacro-grpc/project/project/target
+
+### gatling-test-javacro-springboot ###
+gatling-test-javacro-springboot/.settings
+gatling-test-javacro-springboot/.cache-main
+gatling-test-javacro-springboot/.cache-tests
+gatling-test-javacro-springboot/.project
+gatling-test-javacro-springboot/.classpath
+gatling-test-javacro-springboot/target
+gatling-test-javacro-springboot/project/target
+gatling-test-javacro-springboot/project/project/target
+
+### gatling-test-javacro-thrift ###
+gatling-test-javacro-thrift/.settings
+gatling-test-javacro-thrift/.cache-main
+gatling-test-javacro-thrift/.cache-tests
+gatling-test-javacro-thrift/.project
+gatling-test-javacro-thrift/.classpath
+gatling-test-javacro-thrift/target
+gatling-test-javacro-thrift/project/target
+gatling-test-javacro-thrift/project/project/target

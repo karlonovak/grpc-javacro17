@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package javacro;
+
+option java_multiple_files = false;
+option java_package = "hr.kn.grpc.api";
+option java_outer_classname = "GreetingServiceProto";
+option objc_class_prefix = "TS1P";
+
+
+service GreetingService {
+    rpc Greet (GreeterRequest) returns (GreeterResponse) {}
+}
+
+message GreeterRequest {
+    int64 requestId = 1;
+    string sender = 2;
+    string greeting = 3;
+}
+
+message GreeterResponse {
+    int64 requestId = 1;
+    bool success = 2;
+}

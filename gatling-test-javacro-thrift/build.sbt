@@ -1,4 +1,4 @@
-name := "gatling-test-javacro-grpc"
+name := "gatling-test-javacro-thrift"
 
 organization := "hr.svg"
 

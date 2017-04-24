@@ -7,10 +7,10 @@ import org.apache.thrift.protocol.TBinaryProtocol;
 import org.apache.thrift.async.AsyncMethodCallback;
 import org.apache.thrift.transport.TNonblockingSocket;
 
-import generated.GreeterRequest;
-import generated.GreeterResponse;
-import generated.GreetingServiceThrift;
-import generated.GreetingServiceThrift.AsyncClient;
+import hr.kn.thrift.generated.GreeterRequest;
+import hr.kn.thrift.generated.GreeterResponse;
+import hr.kn.thrift.generated.GreetingServiceThrift;
+import hr.kn.thrift.generated.GreetingServiceThrift.AsyncClient;
 import hr.kn.thrift.server.ThriftServer;
 
 public final class GreetingServiceTestThrift {

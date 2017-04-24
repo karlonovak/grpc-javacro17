@@ -2,9 +2,9 @@ package hr.kn.thrift.server;
 
 import org.apache.thrift.TException;
 
-import generated.GreeterRequest;
-import generated.GreeterResponse;
-import generated.GreetingServiceThrift;
+import hr.kn.thrift.generated.GreeterRequest;
+import hr.kn.thrift.generated.GreeterResponse;
+import hr.kn.thrift.generated.GreetingServiceThrift;
 
 public class GreetingServiceImplThrift implements GreetingServiceThrift.Iface {
 

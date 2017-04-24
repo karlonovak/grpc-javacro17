@@ -6,7 +6,7 @@ import org.apache.thrift.server.THsHaServer.Args;
 import org.apache.thrift.transport.TNonblockingServerSocket;
 import org.apache.thrift.transport.TTransportException;
 
-import generated.GreetingServiceThrift;
+import hr.kn.thrift.generated.GreetingServiceThrift;
 
 public class ThriftServer {
 	public void start(Integer port) {

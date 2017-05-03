@@ -5,6 +5,7 @@ RemoteSystemsTempFiles
 .metadata
 .hg
 .git
+target
 
 ### grpc-javacro ###
 grpc-javacro/.classpath
@@ -24,6 +25,13 @@ spring-javacro/.project
 spring-javacro/.settings
 spring-javacro/target
 
+### jaxws-javacro ###
+jaxws-javacro/.classpath
+jaxws-javacro/.project
+jaxws-javacro/.settings
+jaxws-javacro/target
+jaxws-javacro/.mvn
+
 ### gatling-test-javacro-grpc ###
 gatling-test-javacro-grpc/.settings
 gatling-test-javacro-grpc/.cache-main
@@ -33,6 +41,16 @@ gatling-test-javacro-grpc/.classpath
 gatling-test-javacro-grpc/target
 gatling-test-javacro-grpc/project/target
 gatling-test-javacro-grpc/project/project/target
+
+### gatling-test-javacro-jaxws ###
+gatling-test-javacro-jaxws/.settings
+gatling-test-javacro-jaxws/.cache-main
+gatling-test-javacro-jaxws/.cache-tests
+gatling-test-javacro-jaxws/.project
+gatling-test-javacro-jaxws/.classpath
+gatling-test-javacro-jaxws/target
+gatling-test-javacro-jaxws/project/target
+gatling-test-javacro-jaxws/project/project/target
 
 ### gatling-test-javacro-springboot ###
 gatling-test-javacro-springboot/.settings

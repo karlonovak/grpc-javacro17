@@ -1,4 +1,4 @@
-**####gRPC, Thrift and Spring Boot examples and comparison**
+**####gRPC, Thrift, Spring Boot MVC REST, JAX-WS (CXF) examples and comparison**
 
 This repository was made for [JavaCro'17](http://2017.javacro.hr/) conference session "Putting REST to rest with gRPC" by Karlo Novak (that's me!). 
 

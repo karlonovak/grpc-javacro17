@@ -2,13 +2,15 @@
 
 This repository was made for [JavaCro'17](http://2017.javacro.hr/) conference session "Putting REST to rest with gRPC" by Karlo Novak (that's me!). 
 
-It contains 3 server projects:
+It contains 4 server projects:
 
 * grpc-javacro
 
 * thrift-javacro
 
 * spring-javacro
+
+* jaxws-javacro
 
 
 As well as load/stress tests for each of them:
@@ -19,11 +21,13 @@ As well as load/stress tests for each of them:
 
 * gatling-test-javacro-springboot
 
+* gatling-test-javacro-jaxws
+
 
 ---
 
 
-**####gRPC, Thrift, Spring Boot server examples (Java)**
+**####gRPC, Thrift, Spring Boot, JAX-WS (CXF) server examples (Java)**
 
 Examples show following technologies:
 
@@ -32,6 +36,8 @@ Examples show following technologies:
 2. [Thrift](https://thrift.apache.org)
 
 3. [Spring Boot](https://projects.spring.io/spring-boot)
+
+4. [JAX-WS, CXF](http://cxf.apache.org/)
 
 All server implementations accept simple POJO *GreetingRequest* as a request, and return *GreetingResponse* as a response to make the comparison as fair as it can be.  Also, client connections are kept alive in all the implementations to make sure each technology in test has the same starting position.
 
@@ -66,4 +72,7 @@ Custom protocols for gRPC and Thrift are based upon grpc-gatling [project](https
 ![alt-text](assets/thrift.png "Thrift")
 
 **Spring Boot (MVC REST):**
-![alt-text](assets/spring.png "Thrift")
+![alt-text](assets/spring.png "Spring")
+
+**JAX-WS:**
+![alt-text](assets/jaxws.png "JAX-WS")

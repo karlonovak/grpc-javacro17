@@ -27,7 +27,7 @@ As well as load/stress tests for each of them:
 ---
 
 
-**####gRPC, Thrift, Spring Boot, JAX-WS (CXF) server examples (Java)**
+**####gRPC, Thrift, Spring Boot MVC REST, JAX-WS (CXF) server examples (Java)**
 
 Examples show following technologies:
 

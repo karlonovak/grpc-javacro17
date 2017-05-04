@@ -1,4 +1,4 @@
-package hr.svgroup.ws.upload;
+package hr.kn.jaxws.server;
 import javax.xml.bind.ValidationEvent;
 import javax.xml.bind.ValidationEventHandler;
 

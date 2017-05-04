@@ -1,4 +1,4 @@
-package hr.svgroup.ws.upload;
+package hr.kn.jaxws.server;
 
 public class GreeterServiceImpl implements GreeterService {
 

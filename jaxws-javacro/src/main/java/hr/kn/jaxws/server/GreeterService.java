@@ -1,4 +1,4 @@
-package hr.svgroup.ws.upload;
+package hr.kn.jaxws.server;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;

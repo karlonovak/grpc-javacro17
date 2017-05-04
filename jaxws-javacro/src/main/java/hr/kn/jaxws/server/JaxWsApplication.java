@@ -1,4 +1,4 @@
-package hr.svgroup.ws.upload;
+package hr.kn.jaxws.server;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,12 +12,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class WsUploadApplication {
+public class JaxWsApplication {
 
 	public static final String WS = "/greet";
 
 	public static void main(String[] args) {
-		SpringApplication.run(WsUploadApplication.class, args);
+		SpringApplication.run(JaxWsApplication.class, args);
 	}
 
 	@Bean

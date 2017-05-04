@@ -10,10 +10,10 @@ import org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletCon
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class SpringJavacroApplication {
+public class SpringBootMvcApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringJavacroApplication.class, args);
+		SpringApplication.run(SpringBootMvcApplication.class, args);
 	}
 
 	/**

@@ -7,7 +7,7 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
-		<config>java:hr.kn.springboot.SpringJavacroApplication</config>
+		<config>java:hr.kn.springboot.SpringBootMvcApplication</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
